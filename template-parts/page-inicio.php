@@ -54,7 +54,7 @@ get_header();
 
       <!-- history section -->
       <section class="section section-history">
-        <div class="history-anchor" id="section-history"></div>
+        <div class="history-anchor" id="anchor-history"></div>
         <div class="container">
           <div class="section-inner text-center">
             <div class="heading">
@@ -95,7 +95,7 @@ get_header();
 
       <!-- products section -->
       <section class="section section-products">
-        <div class="anchor products-anchor" id="section-products"></div>
+        <div class="anchor products-anchor" id="anchor-products"></div>
         <div class="full-width">
           <div class="section-inner container">
             <div class="section-products__heading">
@@ -177,7 +177,7 @@ get_header();
         <div class="mission-logo">
             <img src="<?php echo get_template_directory_uri();?>/assets/images/logoankoa-big.svg" alt="">
         </div>
-      <div class="anchor mission-anchor" id="section-mission"></div>
+      <div class="anchor mission-anchor" id="anchor-mission"></div>
       <div class="full-width" id="parallax">
         <div class="section-inner grid">
           
@@ -211,6 +211,7 @@ get_header();
 
     <!-- contact section -->
     <div class="section section-contact">
+        <div class="anchor contact-anchor" id="anchor-contact"></div>
         <div class="container">
             <h2 class="text-center text-white">¿CÓMO PODEMOS AYUDARTE?</h2>
             <p class="text-center  text-white">Para más información envíanos un mensaje mediante el siguiente formulario.</p>

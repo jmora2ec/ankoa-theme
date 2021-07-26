@@ -177,16 +177,16 @@
                       <a href="#" class="nav-link">INICIO</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#section-history" class="nav-link">HISTORIA</a>
+                      <a href="#anchor-history" class="nav-link">HISTORIA</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#section-products" class="nav-link">DEL GRANO A LA BARRA</a>
+                      <a href="#anchor-products" class="nav-link">DEL GRANO A LA BARRA</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#section-mission" class="nav-link">MISIÓN</a>
+                      <a href="#anchor-mission" class="nav-link">MISIÓN</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#section-contact" class="nav-link">CONTACTO</a>
+                      <a href="#anchor-contact" class="nav-link">CONTACTO</a>
                     </li>
                   </ul>
                 </nav>

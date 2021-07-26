@@ -867,11 +867,20 @@ h3 {
 
 /* ||contact section */
 
+
+
 .section-contact{
+    position: relative;
     padding: 10rem 0;
     background-image: url("../images/contact-section-bg.jpg");
 }
 
+
+.contact-anchor {
+    position: absolute;
+    top: -100px;
+  }
+  
 .section-contact h2{
     font-size: clamp(20px,2.8vw,80px);
 }
