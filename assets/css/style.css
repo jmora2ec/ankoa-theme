@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Inter:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Inter:wght@300;400;600&display=swap");
 
 :root {
   --color-primary: #2f1c1d;
@@ -53,7 +53,7 @@ h1,
 h2,
 h3 {
   font-family: "Bellefair", serif;
-  margin:0;
+  margin: 0;
 }
 
 h1 {
@@ -80,8 +80,8 @@ h3 {
   text-align: center;
 }
 
-.text-white{
-    color:#fff;
+.text-white {
+  color: #fff;
 }
 
 .full-width {
@@ -681,10 +681,8 @@ h3 {
   transition: 0.5s ease;
 }
 
-.gallery__image:hover{
-    transform: scale(1.05);
-  
-  
+.gallery__image:hover {
+  transform: scale(1.05);
 }
 
 .gallery__tag {
@@ -746,10 +744,9 @@ h3 {
 
 /*  ||mission section */
 
-
-.mission-anchor{
-    position: absolute;
-    top:-100px;
+.mission-anchor {
+  position: absolute;
+  top: -100px;
 }
 
 .section-mission .section-inner {
@@ -802,7 +799,6 @@ h3 {
   top: -490px;
   z-index: 9;
   /* clip-path: polygon(0 0,50% 0,50% 100%,0 100%); */
-
 }
 
 @media screen and (max-width: 1366px) {
@@ -818,15 +814,13 @@ h3 {
   }
 }
 
-
 @media screen and (max-width: 1024px) {
-    .mission-logo img {
-        right: 0;
-        top: -380px;
-        width: 280px;
-      }
+  .mission-logo img {
+    right: 0;
+    top: -380px;
+    width: 280px;
+  }
 }
-
 
 @media screen and (max-width: 768px) {
   .mission-logo img {
@@ -839,10 +833,9 @@ h3 {
     /*align-items: center; */
   }
 
-  .section-mission__content.flex-reverse{
-      justify-content: center;
+  .section-mission__content.flex-reverse {
+    justify-content: center;
   }
-  
 
   .section-mission__image img {
     width: 100%;
@@ -857,126 +850,122 @@ h3 {
 }
 
 @media screen and (max-width: 425px) {
-
-    .mission-logo img {
-      
-      }
-
+  .mission-logo img {
+  }
 }
-
 
 /* ||contact section */
 
-
-
-.section-contact{
-    position: relative;
-    padding: 10rem 0;
-    background-image: url("../images/contact-section-bg.jpg");
+.section-contact {
+  position: relative;
+  padding: 10rem 0;
+  background-image: url("../images/contact-section-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 .contact-anchor {
-    position: absolute;
-    top: -100px;
-  }
-  
-.section-contact h2{
-    font-size: clamp(20px,2.8vw,80px);
+  position: absolute;
+  top: -100px;
 }
 
-.section-contact p{
-    font-size: clamp(18px,1.2vw,24px);
+.section-contact h2 {
+  font-size: clamp(20px, 2.8vw, 80px);
+}
+
+.section-contact p {
+  font-size: clamp(18px, 1.2vw, 24px);
 }
 
 /*  contact form customization*/
 .wpcf7-form {
-	display:grid;
-	grid-template-columns: repeat(2,1fr);
-	border:none;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: none;
 }
 
-.wpcf7-form-control{
-    width: 100%;
+.wpcf7-form-control {
+  width: 100%;
 }
 
-::placeholder{
-	color:#fff;
+::placeholder {
+  color:#fff;
+  font-size: 1.2rem;
 }
 
-input[type=text],
-input[type=email],
-input[type=tel],
-textarea{
-	background:transparent;
-	border:2px solid #fff;
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  background: transparent;
+  border: 2px solid #fff;
+  font-size: 1.6rem;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=tel]:focus,
-textarea:focus{
-	background:transparent;
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  background: transparent;
 }
 
-.wpcf7-form div{
-	padding:0.5rem 1rem;
-    width: 100%;
+.wpcf7-form div {
+  padding: 0.5rem 1rem;
+  width: 100%;
 }
 
-.wpcf7 input[type=submit]{
-	background-color:#2F1C1D;
-    color:#fff;
-	margin:auto;
-    padding: 0.5em;
-		width:200px;
-	max-width:200px;
-    border: none;
-
+.wpcf7 input[type="submit"] {
+  background-color: #2f1c1d;
+  color: #fff;
+  margin: auto;
+  padding: 0.5em;
+  width: 200px;
+  max-width: 200px;
+  border: none;
 }
 
-.wpcf7 input[type=submit]:hover{
-    background-color: var(--color-primary-light);
+.wpcf7 input[type="submit"]:hover {
+  background-color: var(--color-primary-light);
 }
-
 
 .wpcf7-form div:nth-child(2),
 .wpcf7-form div:nth-child(7),
 .wpcf7-form div:nth-child(8),
-.wpcf7-form div:nth-child(9)
-{
-	grid-column:1/ span 2;
-	
+.wpcf7-form div:nth-child(9) {
+  grid-column: 1 / span 2;
 }
 
-.wpcf7-form div:nth-child(8){
-	text-align:center;
-	
+.wpcf7-form div:nth-child(8) {
+  text-align: center;
 }
 
-.wpcf7-textarea{
-	resize:none;
-	
+.wpcf7-textarea {
+  resize: none;
 }
 
-.wpcf7 .ajax-loader{
+.wpcf7 .ajax-loader {
+  display: block;
+  margin: 0 auto;
+}
+
+.wpcf7-response-output {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 425px) {
+  .wpcf7-form {
     display: block;
-    margin: 0 auto;
+  }
+
+  .section-contact {
+    background-position: top 0px  left -350px;
+}
+ 
 }
 
-.wpcf7-response-output{
-	text-align:center;
-	font-size:1.6rem;
-	color:#fff;
-    padding: 1rem;
-    font-weight: 600;
-
-}
-
-@media screen and (max-width: 425px){
-	.wpcf7-form{
-		display:block;
-	}
-}
 
