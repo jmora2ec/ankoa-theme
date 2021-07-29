@@ -436,6 +436,8 @@ h3 {
 
 .footer-section .accordion-heading h3 {
   font-family: "Inter", sans-serif;
+  margin: 2rem 0;
+
 }
 
 .footer-section .accordion-panel {
