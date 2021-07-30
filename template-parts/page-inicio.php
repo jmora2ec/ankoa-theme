@@ -9,7 +9,7 @@ get_header();
 
 
 <!-- hero section -->
-<section class="section section-hero">
+<section class="section section-hero" id="section-hero">
     <div class="full-width">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-indicators">
@@ -29,7 +29,7 @@ get_header();
 </section>
 
 <!-- history section -->
-<section class="section section-history">
+<section class="section section-history" id="section-history">
     <div class="history-anchor" id="anchor-history"></div>
     <div class="container">
         <div class="section-inner text-center">
@@ -66,7 +66,7 @@ get_header();
 </section>
 
 <!-- products section -->
-<section class="section section-products">
+<section class="section section-products" id="section-products">
     <div class="anchor products-anchor" id="anchor-products"></div>
     <div class="full-width">
         <div class="section-inner container">
@@ -125,7 +125,7 @@ get_header();
 </section>
 
 <!-- mission section -->
-<section class="section section-mission pos-rel">
+<section class="section section-mission pos-rel" id="section-mission">
     <div class="mission-logo">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoankoa-big.svg" alt="">
     </div>
@@ -155,7 +155,7 @@ get_header();
 </section>
 
 <!-- contact section -->
-<div class="section section-contact">
+<section class="section section-contact" id="section-contact">
     <div class="anchor contact-anchor" id="anchor-contact"></div>
     <div class="container">
         <h2 class="text-center text-white">¿CÓMO PODEMOS AYUDARTE?</h2>
@@ -166,7 +166,7 @@ get_header();
         </div>
     </div>
 
-</div>
+</secction>
 
 
 <?php get_footer(); ?>

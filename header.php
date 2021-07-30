@@ -174,20 +174,20 @@
               <div class="site-nav">
                 <nav>
                   <ul class="nav-list">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">INICIO</a>
+                    <li class="nav-item" >
+                      <a href="#" class="nav-link" data-section="section-hero">INICIO</a>
                     </li>
-                    <li class="nav-item">
-                      <a href="#anchor-history" class="nav-link">HISTORIA</a>
+                    <li class="nav-item" >
+                      <a href="#anchor-history" class="nav-link" data-section="section-history">HISTORIA</a>
                     </li>
-                    <li class="nav-item">
-                      <a href="#anchor-products" class="nav-link">DEL GRANO A LA BARRA</a>
+                    <li class="nav-item" >
+                      <a href="#anchor-products" class="nav-link" data-section="section-products">DEL GRANO A LA BARRA</a>
                     </li>
-                    <li class="nav-item">
-                      <a href="#anchor-mission" class="nav-link">MISIÓN</a>
+                    <li class="nav-item" >
+                      <a href="#anchor-mission" class="nav-link" data-section="section-mission">MISIÓN</a>
                     </li>
-                    <li class="nav-item">
-                      <a href="#anchor-contact" class="nav-link">CONTACTO</a>
+                    <li class="nav-item" >
+                      <a href="#anchor-contact" class="nav-link" data-section="section-contact">CONTACTO</a>
                     </li>
                   </ul>
                 </nav>

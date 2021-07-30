@@ -31,26 +31,26 @@ function stickHeader() {
 
 //set active links
 navLinks.forEach(element => {
-    element.addEventListener('click', function(element){
-        navLinks.forEach(element =>{
-            if (this!==element){
+    element.addEventListener('click', function (element) {
+        navLinks.forEach(element => {
+            if (this !== element) {
                 element.classList.remove('nav-active');
             }
         });
         this.classList.add('nav-active');
     })
-    element.addEventListener('click',toggleMenuIcon)
+    element.addEventListener('click', toggleMenuIcon)
 });
 
 //collapsibles
 
 collapsibles.forEach((item) =>
-  item.addEventListener('click',toggleCollapsible)
+    item.addEventListener('click', toggleCollapsible)
 );
 
-header.removeEventListener('click',toggleCollapsible,false);
+header.removeEventListener('click', toggleCollapsible, false);
 
-function toggleCollapsible(){
+function toggleCollapsible() {
     this.classList.toggle('collapsible-expanded');
 }
 
@@ -58,7 +58,7 @@ function toggleCollapsible(){
 //accordions
 
 accordions.forEach((item) =>
-    item.addEventListener('click',function(){
+    item.addEventListener('click', function () {
         this.classList.toggle('accordion-expanded')
     })
 );
@@ -66,9 +66,9 @@ accordions.forEach((item) =>
 
 
 //active or inactive responsive menu
-toggleIcon.addEventListener('click',toggleMenuIcon);
+toggleIcon.addEventListener('click', toggleMenuIcon);
 
-function toggleMenuIcon(){
+function toggleMenuIcon() {
     var closeIcon = document.getElementById('close-icon');
     var menuIcon = document.getElementById('menu-icon');
 
@@ -85,23 +85,59 @@ function toggleMenuIcon(){
 
 // check media queries
 
-if (checkMedia()){
+if (checkMedia()) {
     var aosFade = document.querySelectorAll("[data-aos]");
 
-    aosFade.forEach(function(object){
-        var aosValue= object.getAttribute('data-aos');
-        if( aosValue ==='fade-right'  ||  aosValue==='fade-left'){
-            object.setAttribute('data-aos','fade-down');
+    aosFade.forEach(function (object) {
+        var aosValue = object.getAttribute('data-aos');
+        if (aosValue === 'fade-right' || aosValue === 'fade-left') {
+            object.setAttribute('data-aos', 'fade-down');
         }
-         
+
     });
 }
 
-function checkMedia(){
-    let mq= window.matchMedia("(max-width: 768px)");
+function checkMedia() {
+    let mq = window.matchMedia("(max-width: 768px)");
     return mq.matches;
 }
 
-    
-        
-    
+
+// intersection observer for active menu link
+
+const sections = document.querySelectorAll('.section');
+
+
+const observerOptions = {
+    root: null,
+    threshold: 0,
+    rootMargin: '-30% 0% -40% 0%'
+};
+
+const observer = new IntersectionObserver(function (entries, observer) {
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+
+            navLinks.forEach(item => {
+                if (item.dataset.section === entry.target.id) {
+                    item.classList.add('nav-active');
+                    return;
+                }
+                item.classList.remove('nav-active');
+            });
+
+        }
+
+    });
+}, observerOptions);
+
+
+sections.forEach(section => {
+    observer.observe(section);
+});
+
+
+
+
+
