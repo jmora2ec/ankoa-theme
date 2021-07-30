@@ -750,6 +750,7 @@ h3 {
 
 /*  ||mission section */
 
+
 .mission-anchor {
   position: absolute;
   top: -100px;
@@ -757,9 +758,11 @@ h3 {
 
 .section-mission .section-inner {
   grid-template-columns: repeat(2, 50%);
+  align-items: center;
 }
 
 .section-mission__content {
+    height: 85vh;
   background-color: var(--color-secondary);
 }
 
@@ -771,7 +774,6 @@ h3 {
 
 .mission__content h2 {
   font-size: clamp(4rem, 4.2vw, 9rem);
-  margin-top: 3rem;
   color: var(--color-primary-light);
 }
 
@@ -785,6 +787,7 @@ h3 {
 .flex-reverse {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
 }
 
 .section-mission__image img {
@@ -836,9 +839,13 @@ h3 {
   .section-mission .section-inner {
     display: flex;
     flex-direction: column-reverse;
-    /*align-items: center; */
+    background-color: #9f6c50;
   }
 
+
+  .section-mission__content {
+    height: 50vh;
+  }
   .section-mission__content.flex-reverse {
     justify-content: center;
   }

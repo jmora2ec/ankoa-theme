@@ -17,21 +17,17 @@
             </div>
           </div>
           <div class="footer-section accordion vision">
-            <div class="accordion-heading"><h3>VISIÓN</h3></div>
+            <div class="accordion-heading"><h3>NUESTRO COMPROMISO</h3></div>
             <div class="accordion-panel">
-              Proyectándonos como uno de los mayores <br />exportadores de
-              chocolate Ecuatoriano con un alto <br />nivel de calidad con
-              productos nobles <br />de la naturaleza y cuidando el medio
-              ambiente.
+              El principal objetivo de todo el equipo de Ankoa <br />es asegurar el bienestar y salud de los <br />consumidores, nuestro chocolate es 100% <br />libre de glutén y lactosa.
             </div>
           </div>
           <div class="footer-section accordion contact">
             <div class="accordion-heading">
-              <h3>PONERSE EN CONTACTO</h3>
+              <h3>CONTACTO</h3>
             </div>
             <div class="accordion-panel">
               Ankoa<br />
-              Dirección: Urdenor 1<br />
               +593 99 041 1283<br />
               +56 9 6311 8646<br />
               contacto@ankoachocolate.com<br />
