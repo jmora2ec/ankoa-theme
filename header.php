@@ -192,7 +192,7 @@
                 </nav>
               </div>
 
-              <div class="language-bar flex">
+              <!-- <div class="language-bar flex">
                 <div>
                   <a class="language-link language-item" href="/index.html"
                     >EN</a
@@ -202,7 +202,7 @@
                     >ES</a
                   >
                 </div>
-              </div>
+              </div> -->
 
               <div class="social-list flex">
                 <div>

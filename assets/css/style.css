@@ -33,6 +33,7 @@ html {
   font-family: "Inter", sans-serif;
   font-size: 62.5%;
   font-weight: 400;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -186,7 +187,7 @@ h3 {
 }
 
 .header .grid {
-  padding-top: 1.8rem;
+  padding-top: 1.6rem;
   padding-bottom: 1rem;
   grid-template-columns: repeat(2, auto);
   align-items: center;
@@ -304,9 +305,9 @@ h3 {
 
 /* ipad and low deskto resolution */
 @media screen and (max-width: 1366px) {
-  .header-section .social-list {
+  /* .header-section .social-list {
     display: none;
-  }
+  } */
 
   .header .grid {
     justify-content: space-between;
@@ -404,6 +405,10 @@ h3 {
   .nav-item .nav-link:before {
     height: 0;
   }
+
+  .header-section .social-list {
+    display: none;
+  }
 }
 
 /*  mobil styles */
@@ -437,7 +442,6 @@ h3 {
 .footer-section .accordion-heading h3 {
   font-family: "Inter", sans-serif;
   margin: 2rem 0;
-
 }
 
 .footer-section .accordion-panel {
@@ -892,7 +896,7 @@ h3 {
 }
 
 ::placeholder {
-  color:#fff;
+  color: #fff;
   font-size: 1.2rem;
 }
 
@@ -910,8 +914,9 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 textarea:focus {
-  background:rgba(171, 152, 136, 0.5);
-  color:black;
+  background: rgba(171, 152, 136, 0.5);
+  color: black;
+  outline: 2px solid #2f1c1d;
 }
 
 .wpcf7-form div {
@@ -955,10 +960,18 @@ textarea:focus {
 
 .wpcf7-response-output {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #fff;
   padding: 1rem;
   font-weight: 600;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.sent .wpcf7-response-output,
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+  border: none;
 }
 
 @media screen and (max-width: 425px) {
@@ -967,9 +980,6 @@ textarea:focus {
   }
 
   .section-contact {
-    background-position: top 0px  left -350px;
+    background-position: top 0px left -350px;
+  }
 }
- 
-}
-
-

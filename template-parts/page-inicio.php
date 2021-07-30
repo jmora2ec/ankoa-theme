@@ -15,6 +15,7 @@ get_header();
             id="carouselExampleIndicators"
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
+            data-bs-pause="false"
           >
             <div class="carousel-indicators">
               <button
