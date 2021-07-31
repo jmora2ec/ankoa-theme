@@ -587,7 +587,7 @@ h3 {
 }
 
 .section-history .container {
-  padding: 4rem 0 8rem 0;
+  padding: 6rem 0 10rem 0;
 }
 
 .section-history .section-inner {
@@ -631,6 +631,11 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+
+    .section-history .container {
+    padding: 4rem 0 8rem 0;
+  }
+
   .history-footer p {
     font-size: 3rem;
   }
@@ -750,7 +755,6 @@ h3 {
 
 /*  ||mission section */
 
-
 .mission-anchor {
   position: absolute;
   top: -100px;
@@ -762,7 +766,7 @@ h3 {
 }
 
 .section-mission__content {
-    height: 85vh;
+  height: 85vh;
   background-color: var(--color-secondary);
 }
 
@@ -841,7 +845,6 @@ h3 {
     flex-direction: column-reverse;
     background-color: #9f6c50;
   }
-
 
   .section-mission__content {
     height: 50vh;
