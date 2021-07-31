@@ -847,8 +847,9 @@ h3 {
   }
 
   .section-mission__content {
-    height: 50vh;
+    height: unset;
   }
+
   .section-mission__content.flex-reverse {
     justify-content: center;
   }
@@ -861,13 +862,16 @@ h3 {
   .mission__content {
     width: 100%;
     text-align: center;
-    padding: 4rem;
+    padding: 8rem 4rem;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .mission-logo img {
-  }
+
+
+@media screen and (orientation: landscape){
+    .section-mission__content{
+        min-height: 480px;
+    }
 }
 
 /* ||contact section */

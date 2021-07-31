@@ -110,8 +110,8 @@ const sections = document.querySelectorAll('.section');
 
 const observerOptions = {
     root: null,
-    threshold: 0,
-    rootMargin: '-30% 0% -40% 0%'
+    threshold: 0.20,
+    rootMargin: '-20% 0% -30% 0%'
 };
 
 const observer = new IntersectionObserver(function (entries, observer) {
