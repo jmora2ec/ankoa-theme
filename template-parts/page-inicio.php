@@ -18,10 +18,10 @@ get_header();
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="6000">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner1.jpg" class="d-block w-100" alt="imagen de fruto del cacao" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner1.jpg" class="d-block w-100" alt="fruto del cacao" />
                 </div>
                 <div class="carousel-item" data-bs-interval="6000">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner2.jpg" class="d-block w-100" alt="imagen de chocolate y producto Ankoa" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner2.jpg" class="d-block w-100" alt="chocolate y producto Ankoa" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@ get_header();
             <div class="section-products__gallery flex">
                 <div class="gallery__item">
                     <div class="item">
-                        <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa65.jpg" alt="ankoa barra al 65%" />
+                        <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa65.jpg" alt="ankoa barra de chocolate al 65%" />
                         <p class="gallery__tag">
                             Exquisita tableta de chocolate con 65% de cacao, elaborado
                             cuidadosamente con manos ecuatorianas.
@@ -87,14 +87,14 @@ get_header();
                     </div>
                 </div>
                 <div class="gallery__item">
-                    <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa75.jpg" alt="ankoa barra al 75%" />
+                    <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa75.jpg" alt="ankoa barra de chocolate al 75%" />
                     <p class="gallery__tag">
                         La opción perfecta para los amantes del chocolate oscuro y los
                         sabores únicos.
                     </p>
                 </div>
                 <div class="gallery__item">
-                    <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa85.jpg" alt="ankoa barra al 85%" />
+                    <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa85.jpg" alt="ankoa barra de chocolate al 85%" />
                     <p class="gallery__tag">
                         Nuestras barras de 85% de cacao son intensamente amargas y
                         tienen una agradable textura.
@@ -126,8 +126,8 @@ get_header();
 
 <!-- mission section -->
 <section class="section section-mission pos-rel" id="section-mission">
-    <div class="mission-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoankoa-big.svg" alt="">
+    <div class="mission-logo"  data-aos="fade-up">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoankoa-big.svg" alt="logo de ankoa chocolate">
     </div>
     <div class="anchor mission-anchor" id="anchor-mission"></div>
     <div class="full-width" id="parallax">
@@ -147,7 +147,7 @@ get_header();
 
 
             <div class="section-mission__image section-column">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission-section-mobil.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission-section-mobil.jpg" alt="logo de ankoa chocolate">
             </div>
 
         </div>
@@ -161,7 +161,7 @@ get_header();
         <h2 class="text-center text-white">¿CÓMO PODEMOS AYUDARTE?</h2>
         <p class="text-center  text-white">Para más información envíanos un mensaje mediante el siguiente formulario.</p>
         <div class="contact-form">
-            <?php echo do_shortcode('[contact-form-7 id="69" title="contact-form"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="69" title="ankoa-contact-form"]'); ?>
 
         </div>
     </div>

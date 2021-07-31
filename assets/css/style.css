@@ -814,6 +814,9 @@ h3 {
   /* clip-path: polygon(0 0,50% 0,50% 100%,0 100%); */
 }
 
+
+
+
 @media screen and (max-width: 1366px) {
   .mission__content {
     width: 40vw;
@@ -838,6 +841,10 @@ h3 {
 @media screen and (max-width: 768px) {
   .mission-logo img {
     display: none;
+  }
+
+  .section-mission .full-width{
+      background-image: unset;
   }
 
   .section-mission .section-inner {
