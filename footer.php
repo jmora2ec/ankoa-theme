@@ -47,16 +47,20 @@
           </div>
           <div class="footer-section social-list">
             <div class="social-links">
-              <img
-                class="social-icon"
-                src="<?= get_template_directory_uri();?>/assets/images/fb-icon-colorankoa.svg"
-                alt=""
-              />
-              <img
-                class="social-icon"
-                src="<?= get_template_directory_uri();?>/assets/images/in-icon-colorankoa.svg"
-                alt=""
-              />
+              <a href="#">
+                  <img
+                    class="social-icon"
+                    src="<?= get_template_directory_uri();?>/assets/images/fb-icon-colorankoa.svg"
+                    alt=""
+                  />
+              </a>
+              <a href="#">
+                  <img
+                    class="social-icon"
+                    src="<?= get_template_directory_uri();?>/assets/images/in-icon-colorankoa.svg"
+                    alt=""
+                  />
+              </a>
             </div>
           </div>
         </div>

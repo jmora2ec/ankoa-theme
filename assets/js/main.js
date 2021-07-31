@@ -6,7 +6,7 @@ window.onscroll = function () { stickHeader() };
 let header = document.getElementById("wcd-header");
 
 // Get the offset position of the navbar
-let sticky = header.offsetTop;
+let headerYOffset = header.offsetTop;
 
 //constants
 const logoElement = document.getElementById("header-logo-image");
@@ -19,7 +19,7 @@ const accordions = document.querySelectorAll('.accordion');
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function stickHeader() {
-    if (window.pageYOffset > sticky) {
+    if (window.pageYOffset > headerYOffset) {
         header.classList.add("sticky");
         //logoElement.setAttribute('src', '/assets//images/logoankoa-dark.svg');
 
