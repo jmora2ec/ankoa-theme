@@ -995,6 +995,13 @@ textarea:focus {
   border: none;
 }
 
+
+@media screen and (max-width: 768px){
+    .section-contact{
+        background-image: url("../images/contact-section-bg-mobil.jpg");
+    }
+}
+
 @media screen and (max-width: 425px) {
   .wpcf7-form {
     display: block;
