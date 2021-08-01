@@ -110,7 +110,7 @@ const sections = document.querySelectorAll('.section');
 
 const observerOptions = {
     root: null,
-    threshold: 0.20,
+    threshold: 0.10,
     rootMargin: '-20% 0% -30% 0%'
 };
 

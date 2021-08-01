@@ -126,7 +126,7 @@ get_header();
 
 <!-- mission section -->
 <section class="section section-mission pos-rel" id="section-mission">
-    <div class="mission-logo"  data-aos="fade-up">
+    <div class="mission-logo"  data-aos="fade-left">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoankoa-big.svg" alt="logo de ankoa chocolate">
     </div>
     <div class="anchor mission-anchor" id="anchor-mission"></div>
