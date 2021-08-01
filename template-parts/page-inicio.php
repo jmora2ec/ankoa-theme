@@ -79,7 +79,10 @@ get_header();
             <div class="section-products__gallery flex">
                 <div class="gallery__item">
                     <div class="item">
-                        <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa65.jpg" alt="ankoa barra de chocolate al 65%" />
+                        <img class="gallery__image" 
+                        srcset="<?php echo get_template_directory_uri();?>/assets/images/Ankoa65.jpg 900w,<?php echo get_template_directory_uri();?>/assets/images/Ankoa65-420.jpg 420w"
+                        sizes="(max-width: 768px) 420px, 900px" 
+                        src="<?php echo get_template_directory_uri();?>/assets/images/Ankoa65.jpg" alt="ankoa barra de chocolate al 65%" />
                         <p class="gallery__tag">
                             Exquisita tableta de chocolate con 65% de cacao, elaborado
                             cuidadosamente con manos ecuatorianas.
@@ -87,14 +90,20 @@ get_header();
                     </div>
                 </div>
                 <div class="gallery__item">
-                    <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa75.jpg" alt="ankoa barra de chocolate al 75%" />
+                    <img class="gallery__image" 
+                    srcset="<?php echo get_template_directory_uri();?>/assets/images/Ankoa75.jpg 900w,<?php echo get_template_directory_uri();?>/assets/images/Ankoa75-420.jpg 420w"
+                        sizes="(max-width: 768px) 420px, 900px"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa75.jpg" alt="ankoa barra de chocolate al 75%" />
                     <p class="gallery__tag">
                         La opción perfecta para los amantes del chocolate oscuro y los
                         sabores únicos.
                     </p>
                 </div>
                 <div class="gallery__item">
-                    <img class="gallery__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa85.jpg" alt="ankoa barra de chocolate al 85%" />
+                    <img class="gallery__image" 
+                    srcset="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa85.jpg 900w, <?php echo get_template_directory_uri();?>/assets/images/Ankoa85-420.jpg 420w"
+                        sizes="(max-width: 768px) 420px, 900px"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa85.jpg" alt="ankoa barra de chocolate al 85%" />
                     <p class="gallery__tag">
                         Nuestras barras de 85% de cacao son intensamente amargas y
                         tienen una agradable textura.
