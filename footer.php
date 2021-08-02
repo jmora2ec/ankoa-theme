@@ -19,7 +19,7 @@
           <div class="footer-section accordion vision">
             <div class="accordion-heading"><h3>NUESTRO COMPROMISO</h3></div>
             <div class="accordion-panel">
-              El principal objetivo de todo el equipo de Ankoa <br />es asegurar el bienestar y salud de los <br />consumidores, nuestro chocolate es 100% <br />libre de glutén y lactosa.
+              El principal objetivo de todo el equipo de Ankoa, <br />es asegurar el bienestar y salud de los <br />consumidores. Nuestro chocolate es 100% <br />libre de gluten y lactosa.
             </div>
           </div>
           <div class="footer-section accordion contact">
@@ -39,7 +39,7 @@
         <div class="below-footer flex">
           <div class="footer-section footer-logo flex">
             <div class="footer-logo-image">
-              <img src="<?= get_template_directory_uri();?>/assets/images/logoankoa-footer.svg" alt="" />
+              <img src="<?= get_template_directory_uri();?>/assets/images/logoankoa-footer.svg" alt="ankoa footer logo" />
             </div>
             <div class="footer-logo-text">
               <p>&copy; 2021 Ankoa. All Rights Reserved</p>
@@ -51,14 +51,14 @@
                   <img
                     class="social-icon"
                     src="<?= get_template_directory_uri();?>/assets/images/fb-icon-colorankoa.svg"
-                    alt=""
+                    alt="ankoa chocolate facebook link"
                   />
               </a>
               <a href="#">
                   <img
                     class="social-icon"
                     src="<?= get_template_directory_uri();?>/assets/images/in-icon-colorankoa.svg"
-                    alt=""
+                    alt="anko chocolate instagram link"
                   />
               </a>
             </div>

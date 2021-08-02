@@ -40,17 +40,7 @@ get_header();
             </div>
             <div class="content">
                 <p>
-                    Todo empezó en 2021 por Annie y Vania, dos hermanas
-                    ecuatorianas, que a pesar de más de 13 años de distanciamiento
-                    geográfico mantuvieron sus lazos familiares intactos y más
-                    fuertes que nunca. Esta idea se formó pensando en dar una mejor
-                    visibilidad a mujeres como nosotras que podemos abrir caminos de
-                    oportunidades, siendo un claro ejemplo para la equidad de género
-                    en la sociedad. Nuestro chocolate se elabora en un ecosistema
-                    natural permitiendo vivir una experiencia única en tu paladar,
-                    una explosión de sabores sin igual. Cuidamos cada detalle para
-                    entregarte un chocolate exclusivo con sabores y aromas
-                    impresionantes.
+                Todo empezó en 2021, por Annie y Vania dos hermanas ecuatorianas; que a pesar de más de 13 años de distanciamiento geográfico, mantuvieron sus lazos familiares intactos y más fuertes que nunca. Esta idea se formó pensando en dar una mejor visibilidad a mujeres como nosotras, que podemos abrir caminos de oportunidades, siendo un claro ejemplo para la equidad de género en la sociedad. Nuestro chocolate, se elabora en un ecosistema natural permitiendo vivir una experiencia única en tu paladar, una explosión de sabores sin igual. Cuidamos cada detalle para entregarte un chocolate exclusivo con sabores y aromas impresionantes.
                 </p>
             </div>
             <div class="history-footer">
@@ -105,7 +95,7 @@ get_header();
                         sizes="(max-width: 768px) 420px, 900px"
                     src="<?php echo get_template_directory_uri(); ?>/assets/images/Ankoa85.jpg" alt="ankoa barra de chocolate al 85%" />
                     <p class="gallery__tag">
-                        Nuestras barras de 85% de cacao son intensamente amargas y
+                        Nuestras barras de 85% de cacao, son intensamente amargas y
                         tienen una agradable textura.
                     </p>
                 </div>

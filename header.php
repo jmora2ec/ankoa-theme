@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ankoa Chocolate ecuatoriano en barra. Ankoa, ecuadorian chocolate bars.  We made the most tasty chocolate bars." />
 
       
     <?php wp_head() ?>
