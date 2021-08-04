@@ -47,14 +47,14 @@
           </div>
           <div class="footer-section social-list">
             <div class="social-links">
-              <a href="https://www.facebook.com/Ankoa-Chocolate-141510294712154/">
+              <a href="https://www.facebook.com/Ankoa-Chocolate-141510294712154/"  target="_blank">
                   <img
                     class="social-icon"
                     src="<?= get_template_directory_uri();?>/assets/images/fb-icon-colorankoa.svg"
                     alt="ankoa chocolate facebook link"
                   />
               </a>
-              <a href="https://instagram.com/ankoachocolate">
+              <a href="https://instagram.com/ankoachocolate"  target="_blank">
                   <img
                     class="social-icon"
                     src="<?= get_template_directory_uri();?>/assets/images/in-icon-colorankoa.svg"

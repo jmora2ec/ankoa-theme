@@ -208,7 +208,7 @@
 
               <div class="social-list flex">
                 <div>
-                  <a href="https://instagram.com/ankoachocolate">
+                  <a href="https://instagram.com/ankoachocolate"  target="_blank">
                     <svg
                       class="icon-social"
                       xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +233,7 @@
                       </g>
                     </svg>
                   </a>
-                  <a href="https://www.facebook.com/Ankoa-Chocolate-141510294712154/">
+                  <a href="https://www.facebook.com/Ankoa-Chocolate-141510294712154/"  target="_blank">
                     <svg
                       class="icon-social"
                       xmlns="http://www.w3.org/2000/svg"
