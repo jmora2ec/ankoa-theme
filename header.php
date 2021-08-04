@@ -209,7 +209,7 @@ y texturas." />
 
               <div class="social-list flex">
                 <div>
-                  <a href="#">
+                  <a href="https://instagram.com/ankoachocolate">
                     <svg
                       class="icon-social"
                       xmlns="http://www.w3.org/2000/svg"
@@ -234,7 +234,7 @@ y texturas." />
                       </g>
                     </svg>
                   </a>
-                  <a href="#">
+                  <a href="https://www.facebook.com/Ankoa-Chocolate-141510294712154/">
                     <svg
                       class="icon-social"
                       xmlns="http://www.w3.org/2000/svg"
