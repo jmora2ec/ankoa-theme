@@ -18,10 +18,28 @@ get_header();
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="6000">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner1.jpg" class="d-block w-100" alt="fruto del cacao" />
+                <picture>
+                      <source media="(max-width: 480px)" srcset="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-logo-480w.jpg, <?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-logo-480w2x.jpg 2x">
+                      <img
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-logo-1920w.jpg"
+                        class="d-block w-100"
+                        alt="imagen de fruto del cacao sobre mesa"
+                      />
+                    
+                  </picture>
+                   
                 </div>
                 <div class="carousel-item" data-bs-interval="6000">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner2.jpg" class="d-block w-100" alt="chocolate y producto Ankoa" />
+                <picture class="">
+                      <source media="(max-width: 480px)" srcset="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-caja-480w.jpg, <?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-caja-480w2x.jpg 2x">
+                      <img
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-caja-1920w.jpg"
+                        class="d-block w-100"
+                        alt="imagen de chocolate y producto Ankoa"
+                      />
+                     
+                  </picture>
+                  
                 </div>
             </div>
         </div>

@@ -38,7 +38,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  /* background-color: rgb(38, 194, 33); */
+  
 }
 
 p {
@@ -111,7 +111,7 @@ h3 {
 }
 
 .container {
-  width: 60vw;
+  width: 70vw;
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 clamp(4px, 1vw, 10px);
@@ -120,14 +120,21 @@ h3 {
 @media screen and (max-width: 1366px) {
   .container {
     width: 80vw;
-    max-width: 1024px;
+    max-width: 1092px;
   }
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        width: 90vw;
+        max-width: 800px;
+    }
 }
 
 @media screen and (max-width: 768px) {
   .container {
     width: 90vw;
-    max-width: 640px;
+    max-width: 720px;
   }
 }
 
@@ -820,7 +827,7 @@ h3 {
 @media screen and (max-width: 1366px) {
   .mission__content {
     width: 40vw;
-    max-width: 512px;
+    max-width: 546px;
   }
 
   .mission-logo img {
@@ -831,6 +838,11 @@ h3 {
 }
 
 @media screen and (max-width: 1024px) {
+    .mission__content{
+        width: 45vw;
+        max-width: 400px ;
+    }
+
   .mission-logo img {
     right: 0;
     top: -380px;
@@ -999,6 +1011,7 @@ textarea:focus {
 @media screen and (max-width: 768px){
     .section-contact{
         background-image: url("../images/contact-section-bg-mobil.jpg");
+       
     }
 }
 
@@ -1008,6 +1021,6 @@ textarea:focus {
   }
 
   .section-contact {
-    background-position: top 0px left -350px;
+    background-position: top 0px right -350px;
   }
 }
