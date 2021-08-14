@@ -53,7 +53,7 @@ get_header();
         <div class="section-inner text-center">
             <div class="heading">
                 <h2 data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in">
-                    NUESTRA HISTORIA
+                    NUESTRA </br> HISTORIA
                 </h2>
             </div>
             <div class="content">

@@ -581,7 +581,7 @@ h3 {
   object-fit: cover;
 }
 
-/* history section */
+/*  |||history section */
 
 .section-history {
   position: relative;
@@ -598,7 +598,7 @@ h3 {
 }
 
 .section-history .section-inner {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .section-history .heading h2 {
@@ -637,6 +637,10 @@ h3 {
   margin: 0;
 }
 
+.section-history .heading br{
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
 
     .section-history .container {
@@ -646,6 +650,8 @@ h3 {
   .history-footer p {
     font-size: 3rem;
   }
+
+
 }
 
 /* products section */
@@ -941,6 +947,7 @@ textarea {
   border: 2px solid #fff;
   font-size: 1.6rem;
   line-height: 2;
+  border-radius: 5px;
 }
 
 input[type="text"]:focus,
@@ -965,6 +972,7 @@ textarea:focus {
   width: 200px;
   max-width: 200px;
   border: none;
+  border-radius: 3px;
 }
 
 .wpcf7 input[type="submit"]:hover {
