@@ -19,9 +19,9 @@ get_header();
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="6000">
                 <picture>
-                      <source media="(max-width: 480px)" srcset="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-logo-480w.jpg, <?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-logo-480w2x.jpg 2x">
+                      <source media="(max-width: 480px)" srcset="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner1_480w.jpg, <?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner1_480w2x.jpg 2x">
                       <img
-                        src="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-logo-1920w.jpg"
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner1_1920w.jpg"
                         class="d-block w-100"
                         alt="imagen de fruto del cacao sobre mesa"
                       />
@@ -31,9 +31,9 @@ get_header();
                 </div>
                 <div class="carousel-item" data-bs-interval="6000">
                 <picture class="">
-                      <source media="(max-width: 480px)" srcset="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-caja-480w.jpg, <?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-caja-480w2x.jpg 2x">
+                      <source media="(max-width: 480px)" srcset="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner2_480w.jpg, <?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner2_480w2x.jpg 2x">
                       <img
-                        src="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner-caja-1920w.jpg"
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/AnkoaBanner2_1920w.jpg"
                         class="d-block w-100"
                         alt="imagen de chocolate y producto Ankoa"
                       />
@@ -58,7 +58,7 @@ get_header();
             </div>
             <div class="content">
                 <p>
-                Todo empezó en 2021, por Annie y Vania dos hermanas ecuatorianas; que a pesar de más de 13 años de distanciamiento geográfico, mantuvieron sus lazos familiares intactos y más fuertes que nunca. Esta idea se formó pensando en dar una mejor visibilidad a mujeres como nosotras, que podemos abrir caminos de oportunidades, siendo un claro ejemplo para la equidad de género en la sociedad. Nuestro chocolate, se elabora en un ecosistema natural permitiendo vivir una experiencia única en tu paladar, una explosión de sabores sin igual. Cuidamos cada detalle para entregarte un chocolate exclusivo con sabores y aromas impresionantes.
+                Todo empezó en el 2021 por Annie y Vania, dos hermanas ecuatorianas, que a pesar de más de 13 años de distanciamiento geográfico, mantuvieron sus lazos familiares intactos y más fuertes que nunca. Esta idea se formó pensando en dar una mejor visibilidad a mujeres como nosotras, que podemos abrir caminos de oportunidades, siendo un claro ejemplo para la equidad de género en la sociedad. Nuestro chocolate se elabora en un ecosistema natural, permitiendo vivir una experiencia única en tu paladar, una explosión de sabores sin igual. Cuidamos cada detalle para entregarte un chocolate exclusivo con sabores y aromas impresionantes.
                 </p>
             </div>
             <div class="history-footer">

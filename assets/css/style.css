@@ -171,6 +171,7 @@ h3 {
 }
 
 .show-icon {
+  
   display: block;
 }
 
@@ -179,7 +180,8 @@ h3 {
 }
 
 .toggle-menu:hover path {
-  fill: #fff;
+  /* fill: #fff; */
+  fill:var(--color-primary);
 }
 
 /* header logo section */
@@ -191,6 +193,11 @@ h3 {
 .header-logo-image {
   max-width: 160px;
   transform: scale(1);
+}
+
+.header-logo-image path,
+.header-logo-image polygon {
+  fill: var(--color-primary);
 }
 
 .header .grid {
@@ -232,7 +239,8 @@ h3 {
 }
 
 .nav-list .nav-link {
-  color: white;
+  /* color: white; */
+  color:var(--color-primary);
 }
 
 .nav-item .nav-link:before {
@@ -258,6 +266,12 @@ h3 {
 .language-bar,
 .language-bar a {
   color: #fff;
+}
+
+
+.social-list .icon-social path,
+.toggle-menu path {
+  fill: var(--color-body);
 }
 
 .social-list .icon-social:hover path,
